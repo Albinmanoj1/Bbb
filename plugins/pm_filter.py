@@ -455,11 +455,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('sᴜᴘᴘᴏʀᴛ ᴘʟᴇᴀsᴇ')
     elif query.data == "help":
         buttons = [[            
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/AximMovies'),
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/MWUpdatez')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/BlinderFlimsProRequestGroup'),
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/blinderflims')
         ], [
             InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats'),
-            InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/AboutAadhi')
+            InlineKeyboardButton('ʏᴏᴜᴛᴜʙᴇ', url='https://youtube.com/@Blinder_flims')
         ], [
             InlineKeyboardButton('ʙᴀᴄᴋ ᴛᴏ sᴛᴀʀᴛ', callback_data='start')
         ]]
